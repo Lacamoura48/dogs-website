@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400&display=swap');
+@font-face {
+    font-family: "Hellobaby";
+    src: url("hellobaby-webfont.woff") format("woff");
+    src: url("hellobaby-webfont.woff2") format("woff2");
+    
+    }
+* {
+    font-family: 'Albert Sans', sans-serif;
+    color: #411530;
+    
+
+}
+body {
+    background-color: #FCF5F3;
+}
+h1 {
+    font-family: Hellobaby;
+    color: #D1512D;
+}
+.dogpat {
+    background-image: url(dog-hand.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.line-dog {
+    background-image: url(line-dog.svg), url(line-map.svg);
+    background-repeat: no-repeat;
+    background-position: right,top left;
+    background-size: 700px, 500px;
+}
+@media screen and (max-width: 1000px) {
+    .line-dog {
+        
+        background-size: 400px;
+    }
+}

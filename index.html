@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="flex items-center justify-between px-5 pt-2 sm:pt-5 xl:px-56 sm:px-24">
+            <img  class="w-9 sm:w-10" src="dogslogo.svg" alt="logo">
+            <ul class="flex space-x-2 sm:space-x-4 text-sm sm:text-base">
+                <li><a class="hover:text-[#D1512D] transition" href="#">Login</a></li>
+                <li><a class="bg-[#D1512D] text-white px-2 py-1 rounded-lg transition-all hover:bg-[#e37036] hover:shadow-md hover:shadow-[#e37036]" href="#">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section class="flex flex-col sm:flex-row w-full items-center xl:px-56 sm:px-24 h-[calc(100vh-60.72px)] line-dog">
+            <div class="relative w-full h-[325px] sm:order-2 xl:scale-125 md:scale-115 ">
+                <div class="w-40 h-40 sm:w-48 sm:h-48 absolute top-24 sm:top-20 right-[calc(50%-4.5rem)] sm:right-[8rem]  rounded-[42px] bg-[#F5C7A9]"></div>
+                <img src="blackDog.png" class="absolute w-52 sm:w-60 top-8 sm:top-4 right-[calc(50%-3.5rem)] sm:right-[9rem]" alt="blackDog">
+                <img src="littleDog.png" class="absolute w-48 sm:w-56 top-32 sm:top-26 right-[calc(50%-9rem)] sm:right-[3.5rem]" alt="blackDog">
+            </div>
+            <div class="flex flex-col items-center sm:items-start sm:order-1 dogpat md:pt-12">
+
+                <h1 class="text-4xl xl:text-5xl text-center sm:px-0 sm:text-start px-8 title">
+                    Sell, Buy, Or find your favourite Dog!
+                </h1>
+                <span class="text-center px-8 sm:px-0 mt-3 sm:text-start text-[#B5937D] font-light">
+                    Welcome to the biggest dogs marketplace in the planet.
+                </span>
+                <div class="flex space-x-3 pt-6 text-md">
+                    <a href="#" class="bg-[#D1512D] text-white px-3 py-2 rounded-lg transition-all  hover:scale-[1.05] hover:bg-[#e37036] hover:shadow-xl hover:shadow-[#e37036]">See the dogs</a>
+                    <a href="#" class="bg-[#F5C7A9] text-[#D1512D] px-3 py-2 rounded-lg transition-all hover:bg-[#e37036] hover:shadow-md hover:shadow-[#e37036] hover:text-white">Learn more...</a>
+                </div>
+            </div>
+        </section>
+        <section class=" xl:px-56 sm:px-24 relative">
+            <h1 class="py-8 sm:text-3xl text-2xl text-center sm:text-left mb-12">We have reached so far</h1>
+            <div class="flex sm:flex-row flex-col sm:justify-center items-center space-y-6 sm:space-x-6 z-20">
+                <div class="z-20 w-56 h-72 bg-[#D1512D] border-4 border-[#FCF5F3] rounded-[55px] flex flex-col items-center py-8">
+                    <div class="w-36 h-36 bg-[#FCF5F3] rounded-full p-2">
+                        <h2 class="w-full h-full text-[#D1512D] text-center flex items-center justify-center text-4xl font-bold border-2 rounded-full border-[#D1512D]">1.2k</h2>
+                    </div>
+                    
+                    <p class="text-white mt-7 font-bold">Users online</p>
+                </div>
+                <div class="z-20 w-56 h-72 bg-[#D1512D] border-4 border-[#FCF5F3] rounded-[55px] flex flex-col items-center py-8">
+                    <div class="w-36 h-36 bg-[#FCF5F3] rounded-full p-2">
+                        <h2 class="w-full h-full text-[#D1512D] text-center flex items-center justify-center text-4xl font-bold border-2 rounded-full border-[#D1512D]">3.6k</h2>
+                    </div>
+                    
+                    <p class="text-white mt-7 font-bold">Posts per day</p>
+                </div>
+                <div class="z-20 w-56 h-72 bg-[#D1512D] border-4 border-[#FCF5F3] rounded-[55px] flex flex-col items-center py-8">
+                    <div class="w-36 h-36 bg-[#FCF5F3] rounded-full p-2">
+                        <h2 class="w-full h-full text-[#D1512D] text-center flex items-center justify-center text-4xl font-bold border-2 rounded-full border-[#D1512D]">6.2k</h2>
+                    </div>
+                    
+                    <p class="text-white mt-7 font-bold">Dogs sold</p>
+                </div>
+            </div>
+            <div class="z-10 absolute w-full h-full  bg-[#D1512D] left-0 top-[60%]"></div>
+        </section>
+
+    
+</body>
+</html>

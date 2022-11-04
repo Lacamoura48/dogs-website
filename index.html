@@ -4,43 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dog</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="flex items-center justify-between px-5 pt-2 sm:pt-5 xl:px-56 sm:px-24">
-            <img  class="w-9 sm:w-10" src="dogslogo.svg" alt="logo">
-            <ul class="flex space-x-2 sm:space-x-4 text-sm sm:text-base">
-                <li><a class="hover:text-[#D1512D] transition" href="#">Login</a></li>
-                <li><a class="bg-[#D1512D] text-white px-2 py-1 rounded-lg transition-all hover:bg-[#e37036] hover:shadow-md hover:shadow-[#e37036]" href="#">Sign up</a></li>
-            </ul>
-        </nav>
-    </header>
-        <section class="flex flex-col sm:flex-row w-full items-center xl:px-56 sm:px-24 h-[calc(100vh-60.72px)] line-dog">
-            <div class="relative w-full h-[325px] sm:order-2 xl:scale-125 md:scale-115 ">
-                <div class="w-40 h-40 sm:w-48 sm:h-48 absolute top-24 sm:top-20 right-[calc(50%-4.5rem)] sm:right-[8rem]  rounded-[42px] bg-[#F5C7A9]"></div>
-                <img src="blackDog.png" class="absolute w-52 sm:w-60 top-8 sm:top-4 right-[calc(50%-3.5rem)] sm:right-[9rem]" alt="blackDog">
-                <img src="littleDog.png" class="absolute w-48 sm:w-56 top-32 sm:top-26 right-[calc(50%-9rem)] sm:right-[3.5rem]" alt="blackDog">
-            </div>
-            <div class="flex flex-col items-center sm:items-start sm:order-1 dogpat md:pt-12">
 
-                <h1 class="text-4xl xl:text-5xl text-center sm:px-0 sm:text-start px-8 title">
-                    Sell, Buy, Or find your favourite Dog!
-                </h1>
-                <span class="text-center px-8 sm:px-0 mt-3 sm:text-start text-[#B5937D] font-light">
-                    Welcome to the biggest dogs marketplace in the planet.
-                </span>
-                <div class="flex space-x-3 pt-6 text-md">
-                    <a href="#" class="bg-[#D1512D] text-white px-3 py-2 rounded-lg transition-all  hover:scale-[1.05] hover:bg-[#e37036] hover:shadow-xl hover:shadow-[#e37036]">See the dogs</a>
-                    <a href="#" class="bg-[#F5C7A9] text-[#D1512D] px-3 py-2 rounded-lg transition-all hover:bg-[#e37036] hover:shadow-md hover:shadow-[#e37036] hover:text-white">Learn more...</a>
-                </div>
-            </div>
-        </section>
-        <section class=" xl:px-56 sm:px-24 relative">
+
+
+<header>
+    <nav class="py-3 px-4 items-center flex justify-between xl:w-[1250px] xl:mx-auto">
+        <svg class="w-11" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.4 346.6"><defs><style>.cls-1{fill:#d2512c;}.cls-2{fill:#411530;}</style></defs><path class="cls-1" d="M417.07,294.86c-17.59,0-33.08-.27-48.55.12-7.08.19-11.21-1.21-14.52-8.66-8.6-19.35-24.64-28.74-45.77-28.9q-39.06-.3-78.12,0c-19.49.15-28.59,9.19-28.64,28.58q-.19,80.11,0,160.22c0,10.5-2.56,18.93-13.46,22.75-12.22,4.29-23.43-2.13-25.36-14.89-1.83-90.73,1.59-181.7-1.23-272.45-1.21-48.27,44.55-72.88,84.75-48.25,74.7,45.75,151.48,88.1,227.3,132,22.89,13.26,32.18,33.66,26.87,57.43A48,48,0,0,1,476.76,355c-45.77,26.62-91.55,53.21-137.67,79.2-4.73,2.67-13.58,3.75-17.23,1.08s-5.35-11.17-4.78-16.8c1.86-18.48,18.67-33,38.46-34.84C414.93,378.72,418.35,347.79,417.07,294.86Z" transform="translate(-161.41 -123.68)"/><path class="cls-2" d="M238.71,390.34V287.49c28.46-1.45,52.22,22.2,52.22,51.28S267,391.91,238.71,390.34Z" transform="translate(-161.41 -123.68)"/><path class="cls-2" d="M318,311c-5.41-8.95-11.21-14.31-10.8-19.14.35-4.18,7.76-7.76,12-11.6,4,4.51,10.47,8.68,11.16,13.64C331,297.82,324.38,302.73,318,311Z" transform="translate(-161.41 -123.68)"/></svg>
+        <div>
+            <a href="#">LogIn</a>
+            <a class="btn-orange px-3 py-1 rounded-lg ml-3" href="#">Sign up</a>
+        </div>
+    </nav>
+</header>
+<div class="hero-bg">
+<main class=" px-4 xl:w-[1250px] xl:mx-auto xl:px-0 xl:flex xl:justify-between xl:items-center xl:h-[calc(100vh-99px)]">
+    <section class="xl:scale-125 w-[450px] h-[450px] main-pic relative order-2">
+        <div class="bg-[#ffbc8d] top-[94px] left-[94px] w-40 h-40 absolute rounded-[60px]"></div>
+        <img class="dog-pic absolute w-36 left-[30px] -rotate-12 top-[30px] rounded-[80px]" src="assets/blackDog.png" alt="blackDog">
+        <img class="dog-pic absolute w-40 left-[160px] rotate-6 top-[180px] rounded-[80px]" src="assets/littleDog.png" alt="littleDog">
+    </section>
+    <section class="dog-pat order-1 xl:w-[600px]">
+        <h1 class="text-4xl xl:text-5xl text-center xl:text-start">Sell, Buy or find your favorite dog !</h1>
+        <p class="text-sm xl:text-base text-center xl:text-start pt-3 xl:pt-6 font-light text-[#B5937D]">Finding trustworthy dog breeders, groomers, and trainers can be challenging. The Dog's Marketplace is your trusted resource to help make a lifetime of responsible dog ownership safe, happy, and healthy.</p>
+        <div class="pt-5 xl:pt-7 flex justify-center items-center xl:justify-start space-x-2">
+            <a class="px-3 py-1 rounded-lg btn-orange" href="#">See the dogs</a>
+            <a class="bg-[#F5C7A9] text-[#D1512D] px-3 py-1 rounded-lg" href="#">Learn more...</a>
+        </div>
+    </section>
+</main>
+    
+</div>
+
+        <section class=" xl:px-44 sm:px-10 relative">
             <h1 class="py-8 sm:text-3xl text-2xl text-center sm:text-left mb-12">We have reached so far</h1>
-            <div class="flex sm:flex-row flex-col sm:justify-center items-center space-y-6 sm:space-x-6 z-20">
+            <div class="flex sm:flex-row flex-col sm:justify-center items-center space-y-6 sm:space-y-0 sm:space-x-6 z-20">
                 <div class="z-20 w-56 h-72 bg-[#D1512D] border-4 border-[#FCF5F3] rounded-[55px] flex flex-col items-center py-8">
                     <div class="w-36 h-36 bg-[#FCF5F3] rounded-full p-2">
                         <h2 class="w-full h-full text-[#D1512D] text-center flex items-center justify-center text-4xl font-bold border-2 rounded-full border-[#D1512D]">1.2k</h2>
